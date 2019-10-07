@@ -1,0 +1,12 @@
+Converse/Charm++ Commit ID: v6.7.1-0-gbdf6a1b-namd-charm-6.7.1-build-2016-Nov-07-136676
+Charm++> scheduler running in netpoll mode.
+Charm++ communication thread will sleep due to single-process run.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> cpu affinity enabled. 
+Charm++> Running on 1 unique compute nodes (28-way SMP).
+Charm++> cpu topology info is gathered in 0.002 seconds.
+Info: Built with CUDA version 6050
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 7 (ts22): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 25 (ts22): CUDA driver version is insufficient for CUDA runtime version

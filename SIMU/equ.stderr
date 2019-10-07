@@ -1,0 +1,74 @@
+Charmrun> charmrun started...
+Charmrun> using /tmp/9957.1.all.q/namd-machines as nodesfile
+Charmrun> remote shell (ts05:0) started
+Charmrun> node programs all started
+Charmrun> node programs all connected
+Charmrun> error on request socket to node 0 'ts05'--
+Socket closed before recv.
+Charmrun> charmrun started...
+Charmrun> using /tmp/9958.1.all.q/namd-machines as nodesfile
+Charmrun> remote shell (ts08:0) started
+Charmrun> node programs all started
+Charmrun> node programs all connected
+Charmrun> error on request socket to node 0 'ts08'--
+Socket closed before recv.
+Charmrun> charmrun started...
+Charmrun> using /tmp/9959.1.all.q/namd-machines as nodesfile
+Charmrun> remote shell (ts06:0) started
+Charmrun> node programs all started
+Charmrun> node programs all connected
+Charmrun> error on request socket to node 0 'ts06'--
+Socket closed before recv.
+Charmrun> charmrun started...
+Charmrun> using /tmp/9960.1.all.q/namd-machines as nodesfile
+Charmrun> remote shell (ts16:0) started
+Charmrun> node programs all started
+Charmrun> node programs all connected
+Charmrun> error on request socket to node 0 'ts16'--
+Socket closed before recv.
+cmdTrace.c(713):ERROR:104: 'cuda92/toolkit/9.2.88' is an unrecognized subcommand
+cmdModule.c(411):ERROR:104: 'cuda92/toolkit/9.2.88' is an unrecognized subcommand
+Charmrun> charmrun started...
+Charmrun> using /tmp/9961.1.all.q/namd-machines as nodesfile
+Charmrun> remote shell (ts09:0) started
+Charmrun> node programs all started
+Charmrun> node programs all connected
+Charmrun> error on request socket to node 0 'ts09'--
+Socket closed before recv.
+cmdTrace.c(713):ERROR:104: 'cuda92/toolkit/9.2.88' is an unrecognized subcommand
+cmdModule.c(411):ERROR:104: 'cuda92/toolkit/9.2.88' is an unrecognized subcommand
+Charmrun> charmrun started...
+Charmrun> using /tmp/9962.1.all.q/namd-machines as nodesfile
+Charmrun> remote shell (ts07:0) started
+Charmrun> node programs all started
+Charmrun> node programs all connected
+Charmrun> error on request socket to node 0 'ts07'--
+Socket closed before recv.
+Charmrun> charmrun started...
+Charmrun> using /tmp/9963.1.all.q/namd-machines as nodesfile
+Charmrun> remote shell (ts10:0) started
+Charmrun> node programs all started
+Charmrun> node programs all connected
+Charmrun> error on request socket to node 0 'ts10'--
+Socket closed before recv.
+Charmrun> charmrun started...
+Charmrun> using /tmp/9964.1.all.q/namd-machines as nodesfile
+Charmrun> remote shell (ts11:0) started
+Charmrun> node programs all started
+Charmrun> node programs all connected
+Charmrun> error on request socket to node 0 'ts11'--
+Socket closed before recv.
+Charmrun> charmrun started...
+Charmrun> using /tmp/9970.1.all.q/namd-machines as nodesfile
+Charmrun> remote shell (ts12:0) started
+Charmrun> node programs all started
+Charmrun> node programs all connected
+Charmrun> error on request socket to node 0 'ts12'--
+Socket closed before recv.
+Charmrun> charmrun started...
+Charmrun> using /tmp/9971.1.all.q/namd-machines as nodesfile
+Charmrun> remote shell (ts22:0) started
+Charmrun> node programs all started
+Charmrun> node programs all connected
+Charmrun> error on request socket to node 0 'ts22'--
+Socket closed before recv.

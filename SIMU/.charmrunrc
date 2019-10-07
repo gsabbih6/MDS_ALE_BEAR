@@ -1,0 +1,9 @@
+ 
+######
+. /etc/profile.d/modules.sh
+
+module load shared
+module load cuba80/toolkit/8.0.44
+module load gcc/5.2.0
+module load namd/2.12
+######

@@ -1,0 +1,622 @@
+###########################################################################
+ NAMD got 1 slots across 1 machines
+ Custom namd machines file:
+group main
+ host ts05
+###########################################################################
+Starting NAMD case on Mon Oct  7 17:48:02 EDT 2019
+Charmrun remote shell(ts05.0)> remote responding...
+Charmrun remote shell(ts05.0)> starting node-program...
+Charmrun remote shell(ts05.0)> remote shell phase successful.
+Charmrun> scalable start enabled. 
+Charmrun> adding client 0: "ts05", IP:172.17.1.55
+Charmrun> adding client 1: "ts05", IP:172.17.1.55
+Charmrun> adding client 2: "ts05", IP:172.17.1.55
+Charmrun> adding client 3: "ts05", IP:172.17.1.55
+Charmrun> adding client 4: "ts05", IP:172.17.1.55
+Charmrun> adding client 5: "ts05", IP:172.17.1.55
+Charmrun> adding client 6: "ts05", IP:172.17.1.55
+Charmrun> adding client 7: "ts05", IP:172.17.1.55
+Charmrun> adding client 8: "ts05", IP:172.17.1.55
+Charmrun> adding client 9: "ts05", IP:172.17.1.55
+Charmrun> adding client 10: "ts05", IP:172.17.1.55
+Charmrun> adding client 11: "ts05", IP:172.17.1.55
+Charmrun> adding client 12: "ts05", IP:172.17.1.55
+Charmrun> adding client 13: "ts05", IP:172.17.1.55
+Charmrun> adding client 14: "ts05", IP:172.17.1.55
+Charmrun> adding client 15: "ts05", IP:172.17.1.55
+Charmrun> adding client 16: "ts05", IP:172.17.1.55
+Charmrun> adding client 17: "ts05", IP:172.17.1.55
+Charmrun> adding client 18: "ts05", IP:172.17.1.55
+Charmrun> adding client 19: "ts05", IP:172.17.1.55
+Charmrun> adding client 20: "ts05", IP:172.17.1.55
+Charmrun> adding client 21: "ts05", IP:172.17.1.55
+Charmrun> adding client 22: "ts05", IP:172.17.1.55
+Charmrun> adding client 23: "ts05", IP:172.17.1.55
+Charmrun> adding client 24: "ts05", IP:172.17.1.55
+Charmrun> adding client 25: "ts05", IP:172.17.1.55
+Charmrun> adding client 26: "ts05", IP:172.17.1.55
+Charmrun> Charmrun = 172.17.1.55, port = 34882
+Charmrun> IBVERBS version of charmrun
+start_nodes_ssh
+Charmrun> Sending "0 172.17.1.55 34882 22967 0" to client 0.
+Charmrun> find the node program "/cm/shared/apps/namd/2.12/NAMD_2.12_Linux-x86_64-ibverbs-smp-CUDA/namd2" at "/gpfs/gsfs1/home/gsabbih/Documents/MDS_Project_1/MDS_ALE_BEAR/SIMU" for 0.
+Charmrun> Starting ssh ts05 -l gsabbih -o KbdInteractiveAuthentication=no -o PasswordAuthentication=no -o NoHostAuthenticationForLocalhost=yes /bin/bash -f
+Charmrun> Waiting for 0-th client to connect.
+Charmrun> All clients connected.
+Charmrun> IP tables sent.
+Charmrun> started all node programs in 1.116 seconds.
+Converse/Charm++ Commit ID: v6.7.1-0-gbdf6a1b-namd-charm-6.7.1-build-2016-Nov-07-136676
+Charm++> scheduler running in netpoll mode.
+Charm++ communication thread will sleep due to single-process run.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> cpu affinity enabled. 
+Charm++> Running on 1 unique compute nodes (28-way SMP).
+Charm++> cpu topology info is gathered in 0.002 seconds.
+Info: Built with CUDA version 6050
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 11 (ts05): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 20 (ts05): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 1 (ts05): CUDA driver version is insufficient for CUDA runtime version
+NAMD case complete on Mon Oct  7 17:48:03 EDT 2019
+###########################################################################
+ NAMD got 1 slots across 1 machines
+ Custom namd machines file:
+group main
+ host ts08
+###########################################################################
+Starting NAMD case on Mon Oct  7 18:08:02 EDT 2019
+Charmrun remote shell(ts08.0)> remote responding...
+Charmrun remote shell(ts08.0)> starting node-program...
+Charmrun remote shell(ts08.0)> remote shell phase successful.
+Charmrun> scalable start enabled. 
+Charmrun> adding client 0: "ts08", IP:172.17.1.58
+Charmrun> adding client 1: "ts08", IP:172.17.1.58
+Charmrun> adding client 2: "ts08", IP:172.17.1.58
+Charmrun> adding client 3: "ts08", IP:172.17.1.58
+Charmrun> adding client 4: "ts08", IP:172.17.1.58
+Charmrun> adding client 5: "ts08", IP:172.17.1.58
+Charmrun> adding client 6: "ts08", IP:172.17.1.58
+Charmrun> adding client 7: "ts08", IP:172.17.1.58
+Charmrun> adding client 8: "ts08", IP:172.17.1.58
+Charmrun> adding client 9: "ts08", IP:172.17.1.58
+Charmrun> adding client 10: "ts08", IP:172.17.1.58
+Charmrun> adding client 11: "ts08", IP:172.17.1.58
+Charmrun> adding client 12: "ts08", IP:172.17.1.58
+Charmrun> adding client 13: "ts08", IP:172.17.1.58
+Charmrun> adding client 14: "ts08", IP:172.17.1.58
+Charmrun> adding client 15: "ts08", IP:172.17.1.58
+Charmrun> adding client 16: "ts08", IP:172.17.1.58
+Charmrun> adding client 17: "ts08", IP:172.17.1.58
+Charmrun> adding client 18: "ts08", IP:172.17.1.58
+Charmrun> adding client 19: "ts08", IP:172.17.1.58
+Charmrun> adding client 20: "ts08", IP:172.17.1.58
+Charmrun> adding client 21: "ts08", IP:172.17.1.58
+Charmrun> adding client 22: "ts08", IP:172.17.1.58
+Charmrun> adding client 23: "ts08", IP:172.17.1.58
+Charmrun> adding client 24: "ts08", IP:172.17.1.58
+Charmrun> adding client 25: "ts08", IP:172.17.1.58
+Charmrun> adding client 26: "ts08", IP:172.17.1.58
+Charmrun> Charmrun = 172.17.1.58, port = 60739
+Charmrun> IBVERBS version of charmrun
+start_nodes_ssh
+Charmrun> Sending "0 172.17.1.58 60739 16028 0" to client 0.
+Charmrun> find the node program "/cm/shared/apps/namd/2.12/NAMD_2.12_Linux-x86_64-ibverbs-smp-CUDA/namd2" at "/gpfs/gsfs1/home/gsabbih/Documents/MDS_Project_1/MDS_ALE_BEAR/SIMU" for 0.
+Charmrun> Starting ssh ts08 -l gsabbih -o KbdInteractiveAuthentication=no -o PasswordAuthentication=no -o NoHostAuthenticationForLocalhost=yes /bin/bash -f
+Charmrun> Waiting for 0-th client to connect.
+Charmrun> All clients connected.
+Charmrun> IP tables sent.
+Charmrun> started all node programs in 1.108 seconds.
+Converse/Charm++ Commit ID: v6.7.1-0-gbdf6a1b-namd-charm-6.7.1-build-2016-Nov-07-136676
+Charm++> scheduler running in netpoll mode.
+Charm++ communication thread will sleep due to single-process run.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> cpu affinity enabled. 
+Charm++> Running on 1 unique compute nodes (28-way SMP).
+Charm++> cpu topology info is gathered in 0.002 seconds.
+Info: Built with CUDA version 6050
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 13 (ts08): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 25 (ts08): CUDA driver version is insufficient for CUDA runtime version
+NAMD case complete on Mon Oct  7 18:08:03 EDT 2019
+###########################################################################
+ NAMD got 1 slots across 1 machines
+ Custom namd machines file:
+group main
+ host ts06
+###########################################################################
+Starting NAMD case on Mon Oct  7 18:10:32 EDT 2019
+Charmrun remote shell(ts06.0)> remote responding...
+Charmrun remote shell(ts06.0)> starting node-program...
+Charmrun remote shell(ts06.0)> remote shell phase successful.
+Charmrun> scalable start enabled. 
+Charmrun> adding client 0: "ts06", IP:172.17.1.56
+Charmrun> adding client 1: "ts06", IP:172.17.1.56
+Charmrun> adding client 2: "ts06", IP:172.17.1.56
+Charmrun> adding client 3: "ts06", IP:172.17.1.56
+Charmrun> adding client 4: "ts06", IP:172.17.1.56
+Charmrun> adding client 5: "ts06", IP:172.17.1.56
+Charmrun> adding client 6: "ts06", IP:172.17.1.56
+Charmrun> adding client 7: "ts06", IP:172.17.1.56
+Charmrun> adding client 8: "ts06", IP:172.17.1.56
+Charmrun> adding client 9: "ts06", IP:172.17.1.56
+Charmrun> adding client 10: "ts06", IP:172.17.1.56
+Charmrun> adding client 11: "ts06", IP:172.17.1.56
+Charmrun> adding client 12: "ts06", IP:172.17.1.56
+Charmrun> adding client 13: "ts06", IP:172.17.1.56
+Charmrun> adding client 14: "ts06", IP:172.17.1.56
+Charmrun> adding client 15: "ts06", IP:172.17.1.56
+Charmrun> adding client 16: "ts06", IP:172.17.1.56
+Charmrun> adding client 17: "ts06", IP:172.17.1.56
+Charmrun> adding client 18: "ts06", IP:172.17.1.56
+Charmrun> adding client 19: "ts06", IP:172.17.1.56
+Charmrun> adding client 20: "ts06", IP:172.17.1.56
+Charmrun> adding client 21: "ts06", IP:172.17.1.56
+Charmrun> adding client 22: "ts06", IP:172.17.1.56
+Charmrun> adding client 23: "ts06", IP:172.17.1.56
+Charmrun> adding client 24: "ts06", IP:172.17.1.56
+Charmrun> adding client 25: "ts06", IP:172.17.1.56
+Charmrun> adding client 26: "ts06", IP:172.17.1.56
+Charmrun> Charmrun = 172.17.1.56, port = 33712
+Charmrun> IBVERBS version of charmrun
+start_nodes_ssh
+Charmrun> Sending "0 172.17.1.56 33712 17143 0" to client 0.
+Charmrun> find the node program "/cm/shared/apps/namd/2.12/NAMD_2.12_Linux-x86_64-ibverbs-smp-CUDA/namd2" at "/gpfs/gsfs1/home/gsabbih/Documents/MDS_Project_1/MDS_ALE_BEAR/SIMU" for 0.
+Charmrun> Starting ssh ts06 -l gsabbih -o KbdInteractiveAuthentication=no -o PasswordAuthentication=no -o NoHostAuthenticationForLocalhost=yes /bin/bash -f
+Charmrun> Waiting for 0-th client to connect.
+Charmrun> All clients connected.
+Charmrun> IP tables sent.
+Charmrun> started all node programs in 1.115 seconds.
+Converse/Charm++ Commit ID: v6.7.1-0-gbdf6a1b-namd-charm-6.7.1-build-2016-Nov-07-136676
+Charm++> scheduler running in netpoll mode.
+Charm++ communication thread will sleep due to single-process run.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> cpu affinity enabled. 
+Charm++> Running on 1 unique compute nodes (28-way SMP).
+Charm++> cpu topology info is gathered in 0.002 seconds.
+Info: Built with CUDA version 6050
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 24 (ts06): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 12 (ts06): CUDA driver version is insufficient for CUDA runtime version
+NAMD case complete on Mon Oct  7 18:10:33 EDT 2019
+###########################################################################
+ NAMD got 1 slots across 1 machines
+ Custom namd machines file:
+group main
+ host ts16
+###########################################################################
+Starting NAMD case on Mon Oct  7 18:12:17 EDT 2019
+Charmrun remote shell(ts16.0)> remote responding...
+Charmrun remote shell(ts16.0)> starting node-program...
+Charmrun remote shell(ts16.0)> remote shell phase successful.
+Charmrun> scalable start enabled. 
+Charmrun> adding client 0: "ts16", IP:172.17.1.66
+Charmrun> adding client 1: "ts16", IP:172.17.1.66
+Charmrun> adding client 2: "ts16", IP:172.17.1.66
+Charmrun> adding client 3: "ts16", IP:172.17.1.66
+Charmrun> adding client 4: "ts16", IP:172.17.1.66
+Charmrun> adding client 5: "ts16", IP:172.17.1.66
+Charmrun> adding client 6: "ts16", IP:172.17.1.66
+Charmrun> adding client 7: "ts16", IP:172.17.1.66
+Charmrun> adding client 8: "ts16", IP:172.17.1.66
+Charmrun> adding client 9: "ts16", IP:172.17.1.66
+Charmrun> adding client 10: "ts16", IP:172.17.1.66
+Charmrun> adding client 11: "ts16", IP:172.17.1.66
+Charmrun> adding client 12: "ts16", IP:172.17.1.66
+Charmrun> adding client 13: "ts16", IP:172.17.1.66
+Charmrun> adding client 14: "ts16", IP:172.17.1.66
+Charmrun> adding client 15: "ts16", IP:172.17.1.66
+Charmrun> adding client 16: "ts16", IP:172.17.1.66
+Charmrun> adding client 17: "ts16", IP:172.17.1.66
+Charmrun> adding client 18: "ts16", IP:172.17.1.66
+Charmrun> adding client 19: "ts16", IP:172.17.1.66
+Charmrun> adding client 20: "ts16", IP:172.17.1.66
+Charmrun> adding client 21: "ts16", IP:172.17.1.66
+Charmrun> adding client 22: "ts16", IP:172.17.1.66
+Charmrun> adding client 23: "ts16", IP:172.17.1.66
+Charmrun> adding client 24: "ts16", IP:172.17.1.66
+Charmrun> adding client 25: "ts16", IP:172.17.1.66
+Charmrun> adding client 26: "ts16", IP:172.17.1.66
+Charmrun> Charmrun = 172.17.1.66, port = 40820
+Charmrun> IBVERBS version of charmrun
+start_nodes_ssh
+Charmrun> Sending "0 172.17.1.66 40820 17042 0" to client 0.
+Charmrun> find the node program "/cm/shared/apps/namd/2.12/NAMD_2.12_Linux-x86_64-ibverbs-smp-CUDA/namd2" at "/gpfs/gsfs1/home/gsabbih/Documents/MDS_Project_1/MDS_ALE_BEAR/SIMU" for 0.
+Charmrun> Starting ssh ts16 -l gsabbih -o KbdInteractiveAuthentication=no -o PasswordAuthentication=no -o NoHostAuthenticationForLocalhost=yes /bin/bash -f
+Charmrun> Waiting for 0-th client to connect.
+Charmrun> All clients connected.
+Charmrun> IP tables sent.
+Charmrun> started all node programs in 1.116 seconds.
+Converse/Charm++ Commit ID: v6.7.1-0-gbdf6a1b-namd-charm-6.7.1-build-2016-Nov-07-136676
+Charm++> scheduler running in netpoll mode.
+Charm++ communication thread will sleep due to single-process run.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> cpu affinity enabled. 
+Charm++> Running on 1 unique compute nodes (28-way SMP).
+Charm++> cpu topology info is gathered in 0.002 seconds.
+Info: Built with CUDA version 6050
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 9 (ts16): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 25 (ts16): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 21 (ts16): CUDA driver version is insufficient for CUDA runtime version
+NAMD case complete on Mon Oct  7 18:12:18 EDT 2019
+###########################################################################
+ NAMD got 1 slots across 1 machines
+ Custom namd machines file:
+group main
+ host ts09
+###########################################################################
+Starting NAMD case on Mon Oct  7 18:21:32 EDT 2019
+Charmrun remote shell(ts09.0)> remote responding...
+Charmrun remote shell(ts09.0)> starting node-program...
+Charmrun remote shell(ts09.0)> remote shell phase successful.
+Charmrun> scalable start enabled. 
+Charmrun> adding client 0: "ts09", IP:172.17.1.59
+Charmrun> adding client 1: "ts09", IP:172.17.1.59
+Charmrun> adding client 2: "ts09", IP:172.17.1.59
+Charmrun> adding client 3: "ts09", IP:172.17.1.59
+Charmrun> adding client 4: "ts09", IP:172.17.1.59
+Charmrun> adding client 5: "ts09", IP:172.17.1.59
+Charmrun> adding client 6: "ts09", IP:172.17.1.59
+Charmrun> adding client 7: "ts09", IP:172.17.1.59
+Charmrun> adding client 8: "ts09", IP:172.17.1.59
+Charmrun> adding client 9: "ts09", IP:172.17.1.59
+Charmrun> adding client 10: "ts09", IP:172.17.1.59
+Charmrun> adding client 11: "ts09", IP:172.17.1.59
+Charmrun> adding client 12: "ts09", IP:172.17.1.59
+Charmrun> adding client 13: "ts09", IP:172.17.1.59
+Charmrun> adding client 14: "ts09", IP:172.17.1.59
+Charmrun> adding client 15: "ts09", IP:172.17.1.59
+Charmrun> adding client 16: "ts09", IP:172.17.1.59
+Charmrun> adding client 17: "ts09", IP:172.17.1.59
+Charmrun> adding client 18: "ts09", IP:172.17.1.59
+Charmrun> adding client 19: "ts09", IP:172.17.1.59
+Charmrun> adding client 20: "ts09", IP:172.17.1.59
+Charmrun> adding client 21: "ts09", IP:172.17.1.59
+Charmrun> adding client 22: "ts09", IP:172.17.1.59
+Charmrun> adding client 23: "ts09", IP:172.17.1.59
+Charmrun> adding client 24: "ts09", IP:172.17.1.59
+Charmrun> adding client 25: "ts09", IP:172.17.1.59
+Charmrun> adding client 26: "ts09", IP:172.17.1.59
+Charmrun> Charmrun = 172.17.1.59, port = 44969
+Charmrun> IBVERBS version of charmrun
+start_nodes_ssh
+Charmrun> Sending "0 172.17.1.59 44969 22195 0" to client 0.
+Charmrun> find the node program "/cm/shared/apps/namd/2.12/NAMD_2.12_Linux-x86_64-ibverbs-smp-CUDA/namd2" at "/gpfs/gsfs1/home/gsabbih/Documents/MDS_Project_1/MDS_ALE_BEAR/SIMU" for 0.
+Charmrun> Starting ssh ts09 -l gsabbih -o KbdInteractiveAuthentication=no -o PasswordAuthentication=no -o NoHostAuthenticationForLocalhost=yes /bin/bash -f
+Charmrun> Waiting for 0-th client to connect.
+Charmrun> All clients connected.
+Charmrun> IP tables sent.
+Charmrun> started all node programs in 1.109 seconds.
+Converse/Charm++ Commit ID: v6.7.1-0-gbdf6a1b-namd-charm-6.7.1-build-2016-Nov-07-136676
+Charm++> scheduler running in netpoll mode.
+Charm++ communication thread will sleep due to single-process run.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> cpu affinity enabled. 
+Charm++> Running on 1 unique compute nodes (28-way SMP).
+Charm++> cpu topology info is gathered in 0.002 seconds.
+Info: Built with CUDA version 6050
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 2 (ts09): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 9 (ts09): CUDA driver version is insufficient for CUDA runtime version
+NAMD case complete on Mon Oct  7 18:21:33 EDT 2019
+###########################################################################
+ NAMD got 1 slots across 1 machines
+ Custom namd machines file:
+group main
+ host ts07
+###########################################################################
+Starting NAMD case on Mon Oct  7 18:28:32 EDT 2019
+Charmrun remote shell(ts07.0)> remote responding...
+Charmrun remote shell(ts07.0)> starting node-program...
+Charmrun remote shell(ts07.0)> remote shell phase successful.
+Charmrun> scalable start enabled. 
+Charmrun> adding client 0: "ts07", IP:172.17.1.57
+Charmrun> adding client 1: "ts07", IP:172.17.1.57
+Charmrun> adding client 2: "ts07", IP:172.17.1.57
+Charmrun> adding client 3: "ts07", IP:172.17.1.57
+Charmrun> adding client 4: "ts07", IP:172.17.1.57
+Charmrun> adding client 5: "ts07", IP:172.17.1.57
+Charmrun> adding client 6: "ts07", IP:172.17.1.57
+Charmrun> adding client 7: "ts07", IP:172.17.1.57
+Charmrun> adding client 8: "ts07", IP:172.17.1.57
+Charmrun> adding client 9: "ts07", IP:172.17.1.57
+Charmrun> adding client 10: "ts07", IP:172.17.1.57
+Charmrun> adding client 11: "ts07", IP:172.17.1.57
+Charmrun> adding client 12: "ts07", IP:172.17.1.57
+Charmrun> adding client 13: "ts07", IP:172.17.1.57
+Charmrun> adding client 14: "ts07", IP:172.17.1.57
+Charmrun> adding client 15: "ts07", IP:172.17.1.57
+Charmrun> adding client 16: "ts07", IP:172.17.1.57
+Charmrun> adding client 17: "ts07", IP:172.17.1.57
+Charmrun> adding client 18: "ts07", IP:172.17.1.57
+Charmrun> adding client 19: "ts07", IP:172.17.1.57
+Charmrun> adding client 20: "ts07", IP:172.17.1.57
+Charmrun> adding client 21: "ts07", IP:172.17.1.57
+Charmrun> adding client 22: "ts07", IP:172.17.1.57
+Charmrun> adding client 23: "ts07", IP:172.17.1.57
+Charmrun> adding client 24: "ts07", IP:172.17.1.57
+Charmrun> adding client 25: "ts07", IP:172.17.1.57
+Charmrun> adding client 26: "ts07", IP:172.17.1.57
+Charmrun> Charmrun = 172.17.1.57, port = 37291
+Charmrun> IBVERBS version of charmrun
+start_nodes_ssh
+Charmrun> Sending "0 172.17.1.57 37291 29146 0" to client 0.
+Charmrun> find the node program "/cm/shared/apps/namd/2.12/NAMD_2.12_Linux-x86_64-ibverbs-smp-CUDA/namd2" at "/gpfs/gsfs1/home/gsabbih/Documents/MDS_Project_1/MDS_ALE_BEAR/SIMU" for 0.
+Charmrun> Starting ssh ts07 -l gsabbih -o KbdInteractiveAuthentication=no -o PasswordAuthentication=no -o NoHostAuthenticationForLocalhost=yes /bin/bash -f
+Charmrun> Waiting for 0-th client to connect.
+Charmrun> All clients connected.
+Charmrun> IP tables sent.
+Charmrun> started all node programs in 1.148 seconds.
+Converse/Charm++ Commit ID: v6.7.1-0-gbdf6a1b-namd-charm-6.7.1-build-2016-Nov-07-136676
+Charm++> scheduler running in netpoll mode.
+Charm++ communication thread will sleep due to single-process run.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> cpu affinity enabled. 
+Charm++> Running on 1 unique compute nodes (28-way SMP).
+Charm++> cpu topology info is gathered in 0.002 seconds.
+Info: Built with CUDA version 6050
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 14 (ts07): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 1 (ts07): CUDA driver version is insufficient for CUDA runtime version
+NAMD case complete on Mon Oct  7 18:28:33 EDT 2019
+###########################################################################
+ NAMD got 1 slots across 1 machines
+ Custom namd machines file:
+group main
+ host ts10
+###########################################################################
+Starting NAMD case on Mon Oct  7 18:50:02 EDT 2019
+Charmrun remote shell(ts10.0)> remote responding...
+Charmrun remote shell(ts10.0)> starting node-program...
+Charmrun remote shell(ts10.0)> remote shell phase successful.
+Charmrun> scalable start enabled. 
+Charmrun> adding client 0: "ts10", IP:172.17.1.60
+Charmrun> adding client 1: "ts10", IP:172.17.1.60
+Charmrun> adding client 2: "ts10", IP:172.17.1.60
+Charmrun> adding client 3: "ts10", IP:172.17.1.60
+Charmrun> adding client 4: "ts10", IP:172.17.1.60
+Charmrun> adding client 5: "ts10", IP:172.17.1.60
+Charmrun> adding client 6: "ts10", IP:172.17.1.60
+Charmrun> adding client 7: "ts10", IP:172.17.1.60
+Charmrun> adding client 8: "ts10", IP:172.17.1.60
+Charmrun> adding client 9: "ts10", IP:172.17.1.60
+Charmrun> adding client 10: "ts10", IP:172.17.1.60
+Charmrun> adding client 11: "ts10", IP:172.17.1.60
+Charmrun> adding client 12: "ts10", IP:172.17.1.60
+Charmrun> adding client 13: "ts10", IP:172.17.1.60
+Charmrun> adding client 14: "ts10", IP:172.17.1.60
+Charmrun> adding client 15: "ts10", IP:172.17.1.60
+Charmrun> adding client 16: "ts10", IP:172.17.1.60
+Charmrun> adding client 17: "ts10", IP:172.17.1.60
+Charmrun> adding client 18: "ts10", IP:172.17.1.60
+Charmrun> adding client 19: "ts10", IP:172.17.1.60
+Charmrun> adding client 20: "ts10", IP:172.17.1.60
+Charmrun> adding client 21: "ts10", IP:172.17.1.60
+Charmrun> adding client 22: "ts10", IP:172.17.1.60
+Charmrun> adding client 23: "ts10", IP:172.17.1.60
+Charmrun> adding client 24: "ts10", IP:172.17.1.60
+Charmrun> adding client 25: "ts10", IP:172.17.1.60
+Charmrun> adding client 26: "ts10", IP:172.17.1.60
+Charmrun> Charmrun = 172.17.1.60, port = 55283
+Charmrun> IBVERBS version of charmrun
+start_nodes_ssh
+Charmrun> Sending "0 172.17.1.60 55283 28878 0" to client 0.
+Charmrun> find the node program "/cm/shared/apps/namd/2.12/NAMD_2.12_Linux-x86_64-ibverbs-smp-CUDA/namd2" at "/gpfs/gsfs1/home/gsabbih/Documents/MDS_Project_1/MDS_ALE_BEAR/SIMU" for 0.
+Charmrun> Starting ssh ts10 -l gsabbih -o KbdInteractiveAuthentication=no -o PasswordAuthentication=no -o NoHostAuthenticationForLocalhost=yes /bin/bash -f
+Charmrun> Waiting for 0-th client to connect.
+Charmrun> All clients connected.
+Charmrun> IP tables sent.
+Charmrun> started all node programs in 1.110 seconds.
+Converse/Charm++ Commit ID: v6.7.1-0-gbdf6a1b-namd-charm-6.7.1-build-2016-Nov-07-136676
+Charm++> scheduler running in netpoll mode.
+Charm++ communication thread will sleep due to single-process run.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> cpu affinity enabled. 
+Charm++> Running on 1 unique compute nodes (28-way SMP).
+Charm++> cpu topology info is gathered in 0.002 seconds.
+Info: Built with CUDA version 6050
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 7 (ts10): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 25 (ts10): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 23 (ts10): CUDA driver version is insufficient for CUDA runtime version
+NAMD case complete on Mon Oct  7 18:50:03 EDT 2019
+###########################################################################
+ NAMD got 1 slots across 1 machines
+ Custom namd machines file:
+group main
+ host ts11
+###########################################################################
+Starting NAMD case on Mon Oct  7 19:14:17 EDT 2019
+Charmrun remote shell(ts11.0)> remote responding...
+Charmrun remote shell(ts11.0)> starting node-program...
+Charmrun remote shell(ts11.0)> remote shell phase successful.
+Charmrun> scalable start enabled. 
+Charmrun> adding client 0: "ts11", IP:172.17.1.61
+Charmrun> adding client 1: "ts11", IP:172.17.1.61
+Charmrun> adding client 2: "ts11", IP:172.17.1.61
+Charmrun> adding client 3: "ts11", IP:172.17.1.61
+Charmrun> adding client 4: "ts11", IP:172.17.1.61
+Charmrun> adding client 5: "ts11", IP:172.17.1.61
+Charmrun> adding client 6: "ts11", IP:172.17.1.61
+Charmrun> adding client 7: "ts11", IP:172.17.1.61
+Charmrun> adding client 8: "ts11", IP:172.17.1.61
+Charmrun> adding client 9: "ts11", IP:172.17.1.61
+Charmrun> adding client 10: "ts11", IP:172.17.1.61
+Charmrun> adding client 11: "ts11", IP:172.17.1.61
+Charmrun> adding client 12: "ts11", IP:172.17.1.61
+Charmrun> adding client 13: "ts11", IP:172.17.1.61
+Charmrun> adding client 14: "ts11", IP:172.17.1.61
+Charmrun> adding client 15: "ts11", IP:172.17.1.61
+Charmrun> adding client 16: "ts11", IP:172.17.1.61
+Charmrun> adding client 17: "ts11", IP:172.17.1.61
+Charmrun> adding client 18: "ts11", IP:172.17.1.61
+Charmrun> adding client 19: "ts11", IP:172.17.1.61
+Charmrun> adding client 20: "ts11", IP:172.17.1.61
+Charmrun> adding client 21: "ts11", IP:172.17.1.61
+Charmrun> adding client 22: "ts11", IP:172.17.1.61
+Charmrun> adding client 23: "ts11", IP:172.17.1.61
+Charmrun> adding client 24: "ts11", IP:172.17.1.61
+Charmrun> adding client 25: "ts11", IP:172.17.1.61
+Charmrun> adding client 26: "ts11", IP:172.17.1.61
+Charmrun> Charmrun = 172.17.1.61, port = 49758
+Charmrun> IBVERBS version of charmrun
+start_nodes_ssh
+Charmrun> Sending "0 172.17.1.61 49758 23276 0" to client 0.
+Charmrun> find the node program "/cm/shared/apps/namd/2.12/NAMD_2.12_Linux-x86_64-ibverbs-smp-CUDA/namd2" at "/gpfs/gsfs1/home/gsabbih/Documents/MDS_Project_1/MDS_ALE_BEAR/SIMU" for 0.
+Charmrun> Starting ssh ts11 -l gsabbih -o KbdInteractiveAuthentication=no -o PasswordAuthentication=no -o NoHostAuthenticationForLocalhost=yes /bin/bash -f
+Charmrun> Waiting for 0-th client to connect.
+Charmrun> All clients connected.
+Charmrun> IP tables sent.
+Charmrun> started all node programs in 1.117 seconds.
+Converse/Charm++ Commit ID: v6.7.1-0-gbdf6a1b-namd-charm-6.7.1-build-2016-Nov-07-136676
+Charm++> scheduler running in netpoll mode.
+Charm++ communication thread will sleep due to single-process run.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> cpu affinity enabled. 
+Charm++> Running on 1 unique compute nodes (28-way SMP).
+Charm++> cpu topology info is gathered in 0.002 seconds.
+Info: Built with CUDA version 6050
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 3 (ts11): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 15 (ts11): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 9 (ts11): CUDA driver version is insufficient for CUDA runtime version
+NAMD case complete on Mon Oct  7 19:14:18 EDT 2019
+###########################################################################
+ NAMD got 1 slots across 1 machines
+ Custom namd machines file:
+group main
+ host ts12
+###########################################################################
+Starting NAMD case on Mon Oct  7 19:34:47 EDT 2019
+Charmrun remote shell(ts12.0)> remote responding...
+Charmrun remote shell(ts12.0)> starting node-program...
+Charmrun remote shell(ts12.0)> remote shell phase successful.
+Charmrun> scalable start enabled. 
+Charmrun> adding client 0: "ts12", IP:172.17.1.62
+Charmrun> adding client 1: "ts12", IP:172.17.1.62
+Charmrun> adding client 2: "ts12", IP:172.17.1.62
+Charmrun> adding client 3: "ts12", IP:172.17.1.62
+Charmrun> adding client 4: "ts12", IP:172.17.1.62
+Charmrun> adding client 5: "ts12", IP:172.17.1.62
+Charmrun> adding client 6: "ts12", IP:172.17.1.62
+Charmrun> adding client 7: "ts12", IP:172.17.1.62
+Charmrun> adding client 8: "ts12", IP:172.17.1.62
+Charmrun> adding client 9: "ts12", IP:172.17.1.62
+Charmrun> adding client 10: "ts12", IP:172.17.1.62
+Charmrun> adding client 11: "ts12", IP:172.17.1.62
+Charmrun> adding client 12: "ts12", IP:172.17.1.62
+Charmrun> adding client 13: "ts12", IP:172.17.1.62
+Charmrun> adding client 14: "ts12", IP:172.17.1.62
+Charmrun> adding client 15: "ts12", IP:172.17.1.62
+Charmrun> adding client 16: "ts12", IP:172.17.1.62
+Charmrun> adding client 17: "ts12", IP:172.17.1.62
+Charmrun> adding client 18: "ts12", IP:172.17.1.62
+Charmrun> adding client 19: "ts12", IP:172.17.1.62
+Charmrun> adding client 20: "ts12", IP:172.17.1.62
+Charmrun> adding client 21: "ts12", IP:172.17.1.62
+Charmrun> adding client 22: "ts12", IP:172.17.1.62
+Charmrun> adding client 23: "ts12", IP:172.17.1.62
+Charmrun> adding client 24: "ts12", IP:172.17.1.62
+Charmrun> adding client 25: "ts12", IP:172.17.1.62
+Charmrun> adding client 26: "ts12", IP:172.17.1.62
+Charmrun> Charmrun = 172.17.1.62, port = 56488
+Charmrun> IBVERBS version of charmrun
+start_nodes_ssh
+Charmrun> Sending "0 172.17.1.62 56488 31125 0" to client 0.
+Charmrun> find the node program "/cm/shared/apps/namd/2.12/NAMD_2.12_Linux-x86_64-ibverbs-smp-CUDA/namd2" at "/gpfs/gsfs1/home/gsabbih/Documents/MDS_Project_1/MDS_ALE_BEAR/SIMU" for 0.
+Charmrun> Starting ssh ts12 -l gsabbih -o KbdInteractiveAuthentication=no -o PasswordAuthentication=no -o NoHostAuthenticationForLocalhost=yes /bin/bash -f
+Charmrun> Waiting for 0-th client to connect.
+Charmrun> All clients connected.
+Charmrun> IP tables sent.
+Charmrun> started all node programs in 1.152 seconds.
+Converse/Charm++ Commit ID: v6.7.1-0-gbdf6a1b-namd-charm-6.7.1-build-2016-Nov-07-136676
+Charm++> scheduler running in netpoll mode.
+Charm++ communication thread will sleep due to single-process run.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> cpu affinity enabled. 
+Charm++> Running on 1 unique compute nodes (28-way SMP).
+Charm++> cpu topology info is gathered in 0.002 seconds.
+Info: Built with CUDA version 6050
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 11 (ts12): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 16 (ts12): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 17 (ts12): CUDA driver version is insufficient for CUDA runtime version
+NAMD case complete on Mon Oct  7 19:34:48 EDT 2019
+###########################################################################
+ NAMD got 1 slots across 1 machines
+ Custom namd machines file:
+group main
+ host ts22
+###########################################################################
+Starting NAMD case on Mon Oct  7 19:35:47 EDT 2019
+Charmrun remote shell(ts22.0)> remote responding...
+Charmrun remote shell(ts22.0)> starting node-program...
+Charmrun remote shell(ts22.0)> remote shell phase successful.
+Charmrun> scalable start enabled. 
+Charmrun> adding client 0: "ts22", IP:172.17.1.72
+Charmrun> adding client 1: "ts22", IP:172.17.1.72
+Charmrun> adding client 2: "ts22", IP:172.17.1.72
+Charmrun> adding client 3: "ts22", IP:172.17.1.72
+Charmrun> adding client 4: "ts22", IP:172.17.1.72
+Charmrun> adding client 5: "ts22", IP:172.17.1.72
+Charmrun> adding client 6: "ts22", IP:172.17.1.72
+Charmrun> adding client 7: "ts22", IP:172.17.1.72
+Charmrun> adding client 8: "ts22", IP:172.17.1.72
+Charmrun> adding client 9: "ts22", IP:172.17.1.72
+Charmrun> adding client 10: "ts22", IP:172.17.1.72
+Charmrun> adding client 11: "ts22", IP:172.17.1.72
+Charmrun> adding client 12: "ts22", IP:172.17.1.72
+Charmrun> adding client 13: "ts22", IP:172.17.1.72
+Charmrun> adding client 14: "ts22", IP:172.17.1.72
+Charmrun> adding client 15: "ts22", IP:172.17.1.72
+Charmrun> adding client 16: "ts22", IP:172.17.1.72
+Charmrun> adding client 17: "ts22", IP:172.17.1.72
+Charmrun> adding client 18: "ts22", IP:172.17.1.72
+Charmrun> adding client 19: "ts22", IP:172.17.1.72
+Charmrun> adding client 20: "ts22", IP:172.17.1.72
+Charmrun> adding client 21: "ts22", IP:172.17.1.72
+Charmrun> adding client 22: "ts22", IP:172.17.1.72
+Charmrun> adding client 23: "ts22", IP:172.17.1.72
+Charmrun> adding client 24: "ts22", IP:172.17.1.72
+Charmrun> adding client 25: "ts22", IP:172.17.1.72
+Charmrun> adding client 26: "ts22", IP:172.17.1.72
+Charmrun> Charmrun = 172.17.1.72, port = 51703
+Charmrun> IBVERBS version of charmrun
+start_nodes_ssh
+Charmrun> Sending "0 172.17.1.72 51703 28290 0" to client 0.
+Charmrun> find the node program "/cm/shared/apps/namd/2.12/NAMD_2.12_Linux-x86_64-ibverbs-smp-CUDA/namd2" at "/gpfs/gsfs1/home/gsabbih/Documents/MDS_Project_1/MDS_ALE_BEAR/SIMU" for 0.
+Charmrun> Starting ssh ts22 -l gsabbih -o KbdInteractiveAuthentication=no -o PasswordAuthentication=no -o NoHostAuthenticationForLocalhost=yes /bin/bash -f
+Charmrun> Waiting for 0-th client to connect.
+Charmrun> All clients connected.
+Charmrun> IP tables sent.
+Charmrun> started all node programs in 1.110 seconds.
+Converse/Charm++ Commit ID: v6.7.1-0-gbdf6a1b-namd-charm-6.7.1-build-2016-Nov-07-136676
+Charm++> scheduler running in netpoll mode.
+Charm++ communication thread will sleep due to single-process run.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> cpu affinity enabled. 
+Charm++> Running on 1 unique compute nodes (28-way SMP).
+Charm++> cpu topology info is gathered in 0.002 seconds.
+Info: Built with CUDA version 6050
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 7 (ts22): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 25 (ts22): CUDA driver version is insufficient for CUDA runtime version
+FATAL ERROR: CUDA error cudaGetDeviceCount(&deviceCount) in file src/DeviceCUDA.C, function initialize
+ on Pe 16 (ts22): CUDA driver version is insufficient for CUDA runtime version
+NAMD case complete on Mon Oct  7 19:35:48 EDT 2019
